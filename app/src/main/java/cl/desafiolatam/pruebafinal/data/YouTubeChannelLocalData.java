@@ -8,7 +8,7 @@ import io.reactivex.Observable;
 import io.reactivex.ObservableEmitter;
 import io.reactivex.ObservableOnSubscribe;
 
-public class YouTubeChannelLocalData {
+public class  YouTubeChannelLocalData {
 
     public static Observable<List<YouTubeChannelSchema>> getYouTubeData() {
         return Observable.create(new ObservableOnSubscribe<List<YouTubeChannelSchema>>() {
